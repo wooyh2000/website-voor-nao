@@ -1,6 +1,6 @@
 .navbar {
     overflow: hidden;
-    background-color: dimgreen;
+    background-color: green;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -13,7 +13,7 @@
     text-decoration: none;
 }
 a.knop, a.knop:hover, a.knop:focus {
-    background-color: dimgreen;
+    background-color: green;
     border: none;
     color: white;
     padding: 50px 100px;
@@ -47,7 +47,7 @@ div.container{
      font-size: 30px;
 }
 button {
-    background-color: dimgreen;
+    background-color: green;
     color: white;
     padding: 25px 20px;
     margin: 8px 0;
@@ -58,7 +58,7 @@ button {
     font-size: 25px;
 }
 form{
-    background-color: dimgreen;
+    background-color: green;
     color: white;
     padding: 25px 20px;
     margin: 8px 0;
