@@ -1,0 +1,101 @@
+.navbar {
+    overflow: hidden;
+    background-color: dimgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 36px;
+    color: papayawhip;
+    text-align: center;
+    padding: 34px 36px;
+    text-decoration: none;
+}
+a.knop, a.knop:hover, a.knop:focus {
+    background-color: dimgray;
+    border: none;
+    color: papayawhip;
+    padding: 50px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 35px;
+}
+header {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: papayawhip;
+}
+footer {
+    text-align: center;
+    font-size: 35px;
+    color: papayawhip;
+}
+
+
+p {
+    font-family: verdana;
+    text-align: center;
+    font-size: 20px;
+    color: papayawhip;
+}
+
+div{
+    text-align: center;
+     font-size: 30px;
+}
+
+div.container{
+    text-align: center;
+     font-size: 30px;
+}
+button {
+    background-color: dimgrey;
+    color: papayawhip;
+    padding: 25px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 25px;
+}
+form{
+    background-color: dimgray;
+    color: papayawhip;
+    padding: 25px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 25px;
+}
+input{
+    background-color: black;
+    color: papayawhip;
+    padding: 25px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    opacity: 0.9;
+    font-size: 25px;
+}
+input[type=text], input[type=naam] {
+ background-color: black;
+    color: papayawhip;
+  width: 96%;
+  padding: 15px;
+  margin: 20px 0 22px 0;
+  display: inline-block;
+  border: none;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: black;
+  outline: none;
+}
