@@ -50,7 +50,7 @@ button {
     background-color: darkred;
     color: white;
     padding: 25px 20px;
-    margin: 8px 0;
+    margin: 20px 0 22px 0;
     border: none;
     cursor: pointer;
     width: 100%;
@@ -60,7 +60,7 @@ button {
 form{
     background-color: darkgreen;
     color: white;
-    padding: 25px 20px;
+    padding: 15px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
