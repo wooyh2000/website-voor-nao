@@ -36,6 +36,13 @@ p {
     font-size: 20px;
     color: black;
 }
+var {
+    font-family: verdana;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
 
 div{
     text-align: center;
