@@ -10,7 +10,33 @@
 <title>inloggen</title>
 <p>Hi medebejaardetehuis medewerker, je mag bijna beginnen. Eerst even zeker weten of jij bent wie denkt dat je bent (oftewel, je moet inloggen):</p>
   
- <form action="https://wooyh2000.github.io/website-voor-nao/medewerker.html" method="post">
+  <form action="<script> import hashlib, os
+# salt = os.urandom(32).hex()
+salt = "7f3807aaf052e2e6442c26323076ff13710eedd808898084d4345d81b1d38e3f"
+hash = "91b88e76255164cbcd9f0b0b26270bae6986be67"
+
+def calculateHash(salt, password):
+    h = hashlib.new('sha1')
+    h.update(('%s%s' % (salt, password)).encode('utf-8'))
+    return h.hexdigest()
+
+def checkPassword(salt, hash, enteredPassword):
+    return calculateHash(salt, enteredPassword) == hash
+
+enteredPassword = input("Geef je wachtwoord!\n")
+if checkPassword(salt, hash, enteredPassword):
+    print("Correct wachtwoord")
+else:
+    print("Incorrect wachtwoord")
+    
+salt = "7f3807aaf052e116442c26323076ff1371aeedd808822364d4345d81b1d38e3f"
+hash = "9cfa507bf16d50a4358d26072b90f2ac83ead871"
+
+enteredPassword = input("Geef je wachtwoord!\n")
+if checkPassword(salt, hash, enteredPassword):
+    print("Correct wachtwoord")
+else:
+    print("Incorrect wachtwoord")</script>" method="post">
   <div class="container">
     <input type="Inlog" placeholder="Enter Username" name="uname" required>
     <input type="Wachtwoord" placeholder="Enter Password" name="psw" required>
