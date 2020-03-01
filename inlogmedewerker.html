@@ -10,7 +10,33 @@
 <title>inloggen</title>
 <p>Hi medebejaardetehuis medewerker, je mag bijna beginnen. Eerst even zeker weten of jij bent wie denkt dat je bent (oftewel, je moet inloggen):</p>
   
-  <form action="<script> import hashlib, os
+  <form action="<script>pip install mysql-connector-pythonimport mysql.connector
+from mysql.connector import Error
+
+
+def connect():
+    """ Connect to MySQL database """
+    conn = None
+    try:
+        conn = mysql.connector.connect(option_files='my.conf')
+        if conn.is_connected():
+            print('Connected to MySQL database')
+
+    except Error as e:
+        print(e)
+
+    finally:
+        if conn is not None and conn.is_connected():
+            conn.close()
+
+
+if __name__ == '__main__':
+                                     host = oege.ie.hva.nl
+database = world
+user = root
+password = pass
+port  = 3306
+    connect() import hashlib, os
 # salt = os.urandom(32).hex()
 salt = "7f3807aaf052e2e6442c26323076ff13710eedd808898084d4345d81b1d38e3f"
 hash = "91b88e76255164cbcd9f0b0b26270bae6986be67"
