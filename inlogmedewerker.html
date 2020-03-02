@@ -9,20 +9,35 @@
 <body>
 <title>inloggen</title>
 <p>Hi medebejaardetehuis medewerker, je mag bijna beginnen. Eerst even zeker weten of jij bent wie denkt dat je bent (oftewel, je moet inloggen):</p>
-<form class="form-horizontal" method="POST" action="https://wooyh2000.github.io/website-voor-nao/inlogmedewerker">
- <input type="hidden" name="_token">    
-  <div id="login-email-form" class="form-group">
-  <label for="Personeelsnummer">personeelsnummer</label>
-  <input id="personeelsnummer" type="text" class="form-control" name="personeelsnummer"/>
-  </div>
-  <div class="form-group">
-   <label for="password">Password</label>
-   <input id="password" type="password" class="form-control" name="password">
-   </div>
-    <div class="form-group">
-     <button type="submit" class="btn btn-primary pull-right">Login</button>
-                </div>
-            </form>
+  
+  <form action="https://wooyh2000.github.io/website-voor-nao/inlogmedewerker.html" method="post">
+  <div class="container">
+    <input type="Inlog" placeholder="Enter Username" name="personeelsnr" required>
+    <input type="Wachtwoord" placeholder="Enter Password" name="wachtwoordinvoer" required>
+    <button type="submit">Login</button>
+        </div>
+    <script>
+      import mysql.connector
+      db = mysql.connector.connect(
+    host="oege.ie.hva.nl",
+    user="wooyh",
+    passwd="vyrdBMHRSmNtJx",
+    database="zwooyh"
+        @app.route('https://wooyh2000.github.io/website-voor-nao/medewerker.html')
+    def topscores():
+    cursor = db.cursor()
+    cursor.execute("SELECT wachtwoord FROM personeelsnummer WHERE personeelsnummer like '1'")
+      
+      if (wachtwoordinvoer == wachtwoord) {
+        action="https://wooyh2000.github.io/website-voor-nao/medewerker.html" method="post
+) else {
+      action="https://wooyh2000.github.io/website-voor-nao/inlogmedewerker.html" method="post
+  <p>wachtwoordt onjuist</p>
+  </script>
+
+
+
+</form> 
   
 </body>
 </html>
