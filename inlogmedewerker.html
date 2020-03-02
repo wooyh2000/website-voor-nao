@@ -9,15 +9,21 @@
 <body>
 <title>inloggen</title>
 <p>Hi medebejaardetehuis medewerker, je mag bijna beginnen. Eerst even zeker weten of jij bent wie denkt dat je bent (oftewel, je moet inloggen):</p>
-  
-  <form  method="post">
-  <div class="container">
-    <input type="Inlog" placeholder="Enter Username" name="personeelsnr" required>
-    <input type="hidden" placeholder="Enter Password" name="wachtwoordinvoer" required>
-    <button type="submit">Login</button>
-        </div>
-    <script> src= '/website-voor-nao/main.js'</script>
-</form> 
+<form class="form-horizontal" method="POST" action="https://hva-robots.nl/login">
+ <input type="hidden" name="_token" value="GnIcmcSiBTJoKodtXlGEF2NRDDyo9IbO6MWFMNZi">    
+  <div id="login-email-form" class="form-group">
+  <label for="email">Domein emailadres</label>
+  <input id="email" type="text" class="form-control" name="email" value="" autocomplete="off" placeholder="username@hva.nl" autofocus="autofocus" />
+  <small id="emailHelp" class="form-text text-muted" style="display: none;">Je gebruikersnaam gevolgd door '@hva.nl', zonder punten!</small>
+  </div>
+  <div class="form-group">
+   <label for="password">Password</label>
+   <input id="password" type="password" class="form-control" name="password">
+   </div>
+    <div class="form-group">
+     <button type="submit" class="btn btn-primary pull-right">Login</button>
+                </div>
+            </form>
   
 </body>
 </html>
