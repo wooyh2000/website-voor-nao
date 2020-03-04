@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href='/website-voor-nao/style.css'/>
-</head>
+  <?php include '/website-voor-nao/style.css';?>
+  </head>
     <div class="navbar">
     <a href= https://wooyh2000.github.io/website-voor-nao/index.html>Home</a>
     </div>
