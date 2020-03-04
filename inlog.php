@@ -16,7 +16,7 @@ if (!empty($wachtwoordinvoer) || !empty($personeelsnr){
       die('Connect error('.mysqli_connect_error().')'. mysqli_connect_error());
   } else {
   //data lezen
-      $SELECT = "SELECT wachtwoord FROM inlog WHERE personeelsnummer = personeelsnr";
+      $SELECT = "SELECT wachtwoord FROM inlog WHERE personeelsnummer LIKE 'personeelsnr' ";
   }
   if ($wachtwoordinvoer==$wachtwoord){
   echo "Login Successful";
