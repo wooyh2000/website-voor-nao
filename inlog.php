@@ -19,6 +19,10 @@ if (!empty($wachtwoordinvoer) || !empty($personeelsnr){
       $SELECT = "SELECT wachtwoord FROM inlog WHERE personeelsnummer = personeelsnr";
   }
   if ($wachtwoordinvoer==$wachtwoord){
-  echo 'Connected successfully';
-  }
+  echo "Login Successful";
+        return true;
+  } else {
+        echo "Fout personeelsnr of wachtwoord";
+        return false;
+    }
 ?>
