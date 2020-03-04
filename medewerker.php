@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href='/website-voor-nao/style.css'/>
+  <?php include '/website-voor-nao/style.css';?>
 </head>
   <title>Eigen baas</title>
     <div class="navbar">
