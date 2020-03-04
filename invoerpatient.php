@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <?php include '/website-voor-nao/style.css';?>
+<link rel="stylesheet" href='/website-voor-nao/style.css'/>
 </head>
 <title>invoer patient</title>
 <body>
