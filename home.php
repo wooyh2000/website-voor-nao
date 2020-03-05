@@ -1,5 +1,5 @@
 
-<html">
+<html>
    
    <head>
       <title>Welcome in ANURA </title>
