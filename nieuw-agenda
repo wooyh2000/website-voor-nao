@@ -1,1 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Agenda beheer</title>
+      <title>Afspraak maken</title>
+        <link rel="stylesheet" href='style.css'/>
+    </head>
+    <body>
+       <ul>
 
+       </ul> 
+      <p>Welkom</p>
+    </body>
+</html>
