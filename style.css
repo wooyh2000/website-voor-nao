@@ -11,6 +11,7 @@ li {
 }
 
 li a {
+  font-family: verdana;
   display: block;
   color: white;
   text-align: center;
