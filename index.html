@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+         <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+         <script type="text/javascript" src="FeedEk.min.js"></script>
       <title>Verzorgingstehuis</title>
         <link rel="stylesheet" href='style.css'/>
+        <script type="text/javascript">
+        $(document).ready(function(){
+        $('#divRss').FeedEk({
+        FeedUrl : 'https://www.mijn-eigen-website.nl/rss-mijn-eigen-website.xml',
+        MaxCount : 5,
+        ShowDesc : false,
+        ShowPubDate : true
+        }); }); </script>
     </head>
     <body>
        <ul>
@@ -10,6 +20,7 @@
         <li><a href="/login">Inloggen</a></li>
        </ul> 
       <p>Welkom</p>
+         <div id="divRss"> </div>
         <IFRAME SRC="https://gadgets.buienradar.nl/gadget/radarfivedays" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=256 HEIGHT=406></IFRAME>
     </body>
 </html>
