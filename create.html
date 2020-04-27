@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Maak account aan</title>
-  <link rel="stylesheet" type="text/css" href ="loginPatientCSS.css">
-</head>
-  <body>
-        <ul>
-        <li><a href="/">Home</a></li>
-        </ul> 
+<body>
+ <form>
+  <label for="birthday">Kies een datum:</label>
+  <input type="date" id="Datum" name="Datum">
+  <br>
+  
+  <label for="lname">Afspraak:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  
+  <label for="lname">Begintijd:</label><br>
+  <select Start="Begintijd">
+  <option value="09.00">09.00</option>
+  <option value="10.00">10.00</option>
+  <option value="11.00">11.00</option>
+  <option value="12.00">12.00</option>
+  <option value="13.00">13.00</option>
+  <option value="14.00">14.00</option>
+  <option value="15.00">15.00</option>
+  <option value="16.00">16.00</option>
+  <option value="17.00">17.00</option>
+  <option value="18.00">18.00</option>
+  </select>
+  <br>
+ 
+  <label for="lname">Eindtijd:</label><br>
+  <select Start="Eindtijd">
+  <option value="09.00">09.00</option>
+  <option value="10.00">10.00</option>
+  <option value="11.00">11.00</option>
+  <option value="12.00">12.00</option>
+  <option value="13.00">13.00</option>
+  <option value="14.00">14.00</option>
+  <option value="15.00">15.00</option>
+  <option value="16.00">16.00</option>
+  <option value="17.00">17.00</option>
+  <option value="18.00">18.00</option>
+  </select>
+  
+ 
+</form> 
 
-  <div class="loginbox">
-  <img src="avatar4.png" class="profile">
-    <h1>Maak account</h1>
-      <form method="POST" action="">
-        <p>Gebruikersnaam</p>
-        <input type="text" name="username" placeholder="Vul gebruikersnaam in">
-        <p>Wachtwoord</p>
-        <input type= "password" name="password" placeholder="Vul wachtwoord in">
-        <input type="submit" name="" value = "Aanmaken">
-      </form>
-  </div>
 </body>
 </html>
