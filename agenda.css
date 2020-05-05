@@ -1,0 +1,35 @@
+.Agenda {
+	width:320px;
+	height: 540px;
+	background:#888888;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 30px 30px;
+	border-radius: 20px;
+	box-shadow: 5px 5px black;
+}
+
+.Agenda input{
+	border: none;
+    background: transparent;
+	outline: none;
+	height: 40px;
+	background: white;
+	color: black;
+    placeholder: black;
+	font-size: 18px;
+    border-radius: 5px;
+
+}
+.Agenda select[id=Begintijd], select[id=Eindtijd]{
+	border: solid;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+ 	font-size: 16px;
+}
