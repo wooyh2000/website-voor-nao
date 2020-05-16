@@ -2,13 +2,26 @@
 <html>
     <head>
       <title>Verzorgingstehuis</title>
-      <title>Patient</title>
+      <title>Geen Titel</title>
         <link rel="stylesheet" href='style.css'/>
     </head>
     <body>
        <ul>
-        <li><a href="/beheer">Agenda</a></li>
-       </ul> 
-      <p>Welkom</p>
-    </body>
+         <li><a href="/">Uitloggen</a></li>
+         <li><a href="/agenda">Agenda</a></li>
+         <li><a href="/afspraak">Agenda Punt Aanmaken</a></li>
+       </ul>
+       <br>
+       <p>Datum en Tijd: <span id="datetime"></span></p>
+	   <script>
+		var dt = new Date();
+		document.getElementById("datetime").innerHTML = dt.toLocaleString();
+		</script>
+        <p>Afspraken voor vandaag: </p>
+        <br>
+        
+        <p> Weer: </p>
+        <br>
+       <iframe src="//gadgets.buienradar.nl/gadget/forecastandstation/6240/" noresize scrolling=no hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 width=300 height=190></iframe>
+       </body>
 </html>
