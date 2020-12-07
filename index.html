@@ -1,17 +1,31 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <title>Verzorgingstehuis</title>
-        <link rel="stylesheet" href='style.css'/>
-    </head>
-    <body>
-       <ul>
-        <li><a href="/create">Registreren</a></li>
-        <li><a href="/login">Inloggen</a></li>
-       </ul> 
-      <p>Welkom</p>
-         <div id="divRss"> </div>
-        <IFRAME SRC="https://gadgets.buienradar.nl/gadget/radarfivedays" NORESIZE SCROLLING=NO HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=256 HEIGHT=406></IFRAME>
-    </body>
-</html>
+<html lang="en">
+<head>
+  <title>404 - Frank time out</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1><span id="thisone">5</span></h1>
+      <button onclick="addone()" type="button" class="btn btn-lg btn-info" id="justdoit">  Meld vastloper</button>
+      <h1><span id="overhere"></span></h1>
+    </div>
+  </div>
+    <script type="text/javascript">
+        function doit(){
+          document.getElementById("thisone").innerHTML = "you";
+        }
 
+        function addone(){
+          var i = document.getElementById('thisone').innerHTML;
+          i++;
+          document.getElementById('thisone').innerHTML = i;
+        }
+    </script>
+</body>
+</html>
